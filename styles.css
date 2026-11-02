@@ -1,0 +1,103 @@
+body {
+  background-color:blanchedalmond;
+}
+.arriba {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    background-color: rgb(246, 217, 180);
+    border-radius: 30px;
+}
+#test {
+  font-size: 130%;
+  text-align: center;
+}
+.content-box {
+  display: flex-end;
+  margin: 20px auto;
+  padding: 30px;
+  justify-content: center;
+  background-color: rgb(246, 217, 180);
+  border-radius: 30px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+#lewagon-logo {
+  max-width: 2em;
+  max-height: 2em;
+}
+#lewagon-button {
+  display: flex;
+  justify-content: center;
+}
+.buttons{
+  margin: 10px;
+  background-color: red;
+  padding:20px;
+  padding-right: 6em;
+  padding-left: 6em;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.social-media-buttons{
+  margin: 10px;
+  background-color: rgb(245, 106, 106);
+  padding:20px;
+  padding-right: 2em;
+  padding-left: 2em;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.inline{
+  list-style: none;
+  padding-left: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color : black
+}
+ul {
+  display: inline-flex;
+}
+#box-presenter {
+  font-size : 30px;
+}
+
+#pfp {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  margin-right: 100px;
+  box-shadow: 10px 10px 5px rgb(240, 190, 124)
+}
+.buttons:hover{
+  box-shadow: 0px 0px 5px 10px rgb(255, 0, 0);
+}
+.social-media-buttons:hover{
+  box-shadow: 0px 0px 5px 10px rgb(245, 106, 106);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
