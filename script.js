@@ -4,6 +4,9 @@ lewagonbutton.addEventListener("click", () => {
 });
 
 const buttonstmp1 = document.querySelectorAll(".social-media-buttons");
-buttonstmp1.addEventListener("click", () => {
-  buttonstmp1.innerText = "Tab opened!";
+buttonstmp1.forEach((button) => {
+  button.addEventListener("click", () => {
+    button.innerText = "Tab opened!";
+    button.style.backgroundColor = "rgb(143, 79, 79)";
+  });
 });

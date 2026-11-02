@@ -1,6 +1,12 @@
 body {
   background-color:blanchedalmond;
 }
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .arriba {
     display: flex;
     align-items: center;
@@ -35,7 +41,7 @@ h1 {
 }
 .buttons{
   margin: 10px;
-  background-color: red;
+  background-color: rgb(231, 16, 7);
   padding:20px;
   padding-right: 6em;
   padding-left: 6em;
@@ -66,6 +72,9 @@ ul {
 #box-presenter {
   font-size : 30px;
 }
+p {
+  font-size: 20px;
+}
 
 #pfp {
   width: 200px;
@@ -75,7 +84,7 @@ ul {
   box-shadow: 10px 10px 5px rgb(240, 190, 124)
 }
 .buttons:hover{
-  box-shadow: 0px 0px 5px 10px rgb(255, 0, 0);
+  box-shadow: 0px 0px 5px 10px rgb(231, 16, 7);
 }
 .social-media-buttons:hover{
   box-shadow: 0px 0px 5px 10px rgb(245, 106, 106);
